@@ -269,6 +269,7 @@ footer button{
 @media (max-width:768px)  and (max-width:1024px) {
     header{ display: flex;
             justify-content: space-between;
+            width: 90%;
     }
    
    .hero{
@@ -396,11 +397,12 @@ hr{
 }
 @media (max-width:480px){
     body{
-        overflow-x: hidden; 
+        width: 800px;
     }
     header{
         display: flex;
         flex-direction: row;
+        width: 90%;
         
     }
    .menu{
@@ -422,7 +424,7 @@ hr{
 .hero-content{
 padding-top: 160px;
 padding-left: 70px;
-padding-top:100px;
+padding-top:350px;
 }
 .hero-content h1{
     font-size: 6.5rem;
@@ -444,36 +446,36 @@ padding-top:100px;
 }
 hr{
     border-top: 10px solid white;
-    width: 50%;
+    width: 68%;
     margin-left: 0px;
     margin-top: 0px;
 }
 .service{
     overflow-x: hidden; 
-    width:400px;
 }
 .service h2{
     text-align: center;
     width: 70%;
 }
 .cont img{
-    width: 300px;
+    width: 450px;
     height: 350px;
 }
 .first{
     margin-bottom: 100px;
 }
 .first p{
-    font: 1.2rem serif;
-    width: 100%;
+    font: 1.5rem serif;
+    width: 80%;
+    margin-left: 2px;
 
 }
 .second h2, .second h3{ 
-    margin-left: 2px;
+    margin-left: 30px;
     font-size:1.5rem;
     } 
 .second img{
-   width: 300px;
+   width: 450px;
 }
 .quality{
     display: block;
@@ -481,18 +483,21 @@ hr{
 .qua-cont h3{
     margin-top: 150px;
     font-size: 3rem;
-    margin-left: 30px;
+    margin-left: 100px;
 }
 .qua-cont p{
     text-align: left;
-    margin-left: 30px;
+    margin-left: 100px;
 }
 .qua-cont hr{
-    margin-left: 30px;
+    margin-left: 100px;
     width: 50%;
 }
 .qua-cont button{
-    margin-left: 30px;
+    margin-left: 100px;
+}
+.img-qua img {
+    margin-left: 70px;
 }
 .left{
     display: block;
@@ -504,9 +509,26 @@ hr{
 .service-content{
     padding: 15px;
 }
+.service-content p{
+    font-size: 1.5rem;
+}
+.aout span{
+    font-family: sans-serif;
+    display: block;
+}
 .img{
     display: block;
     flex-direction: row;
-    margin: 0px 60px;
+    margin: 0px 30px;
+}
+.aout{
+    margin: 10px 35px;
+}
+.img img{
+    width: 100%;
+    margin: 0 80px;
+}
+p{
+  font-size: 1.5rem;
 }
 }
